@@ -13,7 +13,7 @@
   }
 }
 
-.App-header {
+.App-header,.footer {
   background: url("./Assets/Pizza.jpg");
   min-height: 100vh;
   display: flex;
@@ -23,6 +23,26 @@
   font-size: 50px;
   color: white;
   size: 40px;
+}
+.container{
+  background: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-a;
+  padding: 4%;
+  
+}
+.orders{
+  border-radius: 25px;
+  background: gold;
+  padding: 20px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: large;
+  text-align: center;
 }
 
 .App-link {

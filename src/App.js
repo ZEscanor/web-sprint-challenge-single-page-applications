@@ -112,7 +112,7 @@ export default function App() {
 
     pepperoni:formValues.pepperoni,
     sausage:formValues.sausage,
-    bacon:formValues. bacon,
+    bacon:formValues.bacon,
     onions:formValues.onions,
       
       // 🔥 STEP 7- WHAT ABOUT HOBBIES?
@@ -160,7 +160,8 @@ export default function App() {
           )
        
        })
-      } 
+      }
+      <footer className="footer"><div className="home-button"><Link to='/'>Home</Link></div></footer> 
       </Route>
    </div>
   )
